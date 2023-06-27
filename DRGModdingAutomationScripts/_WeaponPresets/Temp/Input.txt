@@ -1,0 +1,1 @@
+"C:\Users\Joris\Documents\Unreal Projects\FSD-Template\DRGModdingAutomationScripts\_WeaponPresets\Temp\PackageInput\" "../../../FSD/"

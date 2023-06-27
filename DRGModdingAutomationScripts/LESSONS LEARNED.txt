@@ -1,0 +1,6 @@
+die BP klasse nicht "Tutorial" nennen, sonst funktioniert es nicht
+Sequence führt alles gleichzeitig aus
+Do not rename Save Game classes or the cast will fail
+Never ever touch a variable in a savegame
+	ActiveItems_48_... turned into ActiveItems_60_... -> can't read active items from save at all
+	Fix: rename to ActiveItems_48 in EP_CharacterPreset with text editor

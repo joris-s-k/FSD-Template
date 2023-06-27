@@ -1,0 +1,1 @@
+Project Settings -> Packaging -> Directories to never cook

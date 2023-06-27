@@ -141,3 +141,7 @@ Saved/
 
 # Explcitly ignore Mac DS_Store files, regardless of where they are
 .DS_Store
+
+/_HEADER DUMPS U37P11
+/_TEMP
+!/Content/_Imyr/**
