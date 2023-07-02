@@ -12,4 +12,4 @@ call UtilityBats/CookUEProject.bat --noPause
 
 call UtilityBats/PackageMod.bat --noPause
 
-call replaceAdvancedDarkness.bat --noPause
+call copyToStaging.bat --noPause

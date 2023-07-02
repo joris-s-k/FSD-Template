@@ -1,1 +1,0 @@
-"C:\Users\Joris\Documents\Unreal Projects\FSD-Template\DRGModdingAutomationScripts\_EquipmentCheats\Temp\PackageInput\" "../../../FSD/"
