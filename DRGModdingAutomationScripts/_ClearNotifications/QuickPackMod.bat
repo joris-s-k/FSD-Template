@@ -8,6 +8,8 @@ call UtilityBats/MakeDefaultConfigFiles.bat --noPause
 call UtilityBats/LoadVars.bat
 call UtilityBats/VerifyVars.bat --noPause
 
+call UtilityBats/CookUEProject.bat --noPause
+
 call UtilityBats/PackageMod.bat --noPause
 
-call copyToCustom.bat --noPause
+call copyToStaging.bat --noPause

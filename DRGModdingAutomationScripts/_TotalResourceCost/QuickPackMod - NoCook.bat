@@ -10,4 +10,5 @@ call UtilityBats/VerifyVars.bat --noPause
 
 call UtilityBats/PackageMod.bat --noPause
 
-call copyToCustom.bat --noPause
+rem call replaceAdvancedDarkness.bat --noPause
+call copyToStaging.bat --noPause

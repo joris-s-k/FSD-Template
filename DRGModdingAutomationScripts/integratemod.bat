@@ -1,0 +1,2 @@
+"e:\_MODS\Deep Rock Galactic\DRG Mod Integration\drg_mod_integration.exe" integrate -m "e:\_MODS\Deep Rock Galactic\_Custom_Mods\%ModName%.pak"
+"e:\_MODS\Deep Rock Galactic\DRG Mod Integration\drg_mod_integration.exe" launch

@@ -12,4 +12,12 @@ call UtilityBats/CookUEProject.bat --noPause
 
 call UtilityBats/PackageMod.bat --noPause
 
-call copyToCustom.bat --noPause
+mkdir "%SteamInstall%\FSD\Mods\%ModName%"
+
+echo removing old mod pak
+del "%SteamInstall%\FSD\Mods\%ModName%\%ModName%.pak" /q
+
+echo copying over new mod pak
+move "%cd%\Temp\%ModName%.pak" "%SteamInstall%\FSD\Mods\%ModName%\"
+
+start steam://rungameid/548430
