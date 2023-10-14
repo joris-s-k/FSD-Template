@@ -7,6 +7,7 @@ cd ..
 
 call UtilityBats/CopyWhitelistedFiles.bat --noPause
 call UtilityBats/StripBlacklistedFiles.bat --noPause
+call replaceModels.bat --noPause
 
 ::Make input text file
 echo making input text file
