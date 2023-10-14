@@ -70,10 +70,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/GoogleAnalytics/GoogleAnalytics.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemTwitch/OnlineSubsystemTwitch.uplugin",
 			"Type": "UFS"
 		},
@@ -194,6 +190,18 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/GoogleAnalytics/GoogleAnalytics.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetDumper/AssetDumper.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetGenerator/AssetGenerator.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/DiscordSDK/DiscordSDK.uplugin",
 			"Type": "UFS"
 		},
@@ -207,6 +215,10 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/FSDEditorTools/EditorBase/EditorBase.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FSDEditorTools/SkinEditor/SkinEditor.uplugin",
 			"Type": "UFS"
 		},
 		{

@@ -498,6 +498,12 @@ void UFSDCheatManager::C_ProjectileDrawPaths() {
 void UFSDCheatManager::C_ProjectileDebugPrintToggle() {
 }
 
+void UFSDCheatManager::C_PrintLoadout() {
+}
+
+void UFSDCheatManager::C_PlayNewMusic(int32 songIndex) const {
+}
+
 void UFSDCheatManager::C_MissionMap_TestDistribution() {
 }
 

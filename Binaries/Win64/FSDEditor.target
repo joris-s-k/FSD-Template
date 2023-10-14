@@ -100,14 +100,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/GoogleAnalytics/Binaries/Win64/UE4Editor-GoogleAnalytics.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/GoogleAnalytics/Binaries/Win64/UE4Editor-GoogleAnalytics.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemTwitch/Binaries/Win64/UE4Editor-OnlineSubsystemTwitch.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -457,6 +449,30 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/FullBodyIK/Binaries/Win64/UE4Editor-FullBodyIK.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GoogleAnalytics/Binaries/Win64/UE4Editor-GoogleAnalytics.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GoogleAnalytics/Binaries/Win64/UE4Editor-GoogleAnalytics.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetDumper/Binaries/Win64/UE4Editor-AssetDumper.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetDumper/Binaries/Win64/UE4Editor-AssetDumper.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetGenerator/Binaries/Win64/UE4Editor-AssetGenerator.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetGenerator/Binaries/Win64/UE4Editor-AssetGenerator.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -4456,10 +4472,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/GoogleAnalytics/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemTwitch/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -4561,6 +4573,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/FullBodyIK/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GoogleAnalytics/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetDumper/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetGenerator/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -4914,10 +4938,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/GoogleAnalytics/GoogleAnalytics.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemTwitch/OnlineSubsystemTwitch.uplugin",
 			"Type": "UFS"
 		},
@@ -5034,6 +5054,18 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/GoogleAnalytics/GoogleAnalytics.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetDumper/AssetDumper.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetGenerator/AssetGenerator.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/DiscordSDK/DiscordSDK.uplugin",
 			"Type": "UFS"
 		},
@@ -5047,6 +5079,10 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/FSDEditorTools/EditorBase/EditorBase.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FSDEditorTools/SkinEditor/SkinEditor.uplugin",
 			"Type": "UFS"
 		},
 		{

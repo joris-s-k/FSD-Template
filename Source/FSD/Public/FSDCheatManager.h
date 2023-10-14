@@ -541,6 +541,12 @@ public:
     void C_ProjectileDebugPrintToggle();
     
     UFUNCTION(BlueprintCallable, Exec)
+    void C_PrintLoadout();
+    
+    UFUNCTION(BlueprintCallable, Exec)
+    void C_PlayNewMusic(int32 songIndex) const;
+    
+    UFUNCTION(BlueprintCallable, Exec)
     void C_MissionMap_TestDistribution();
     
     UFUNCTION(BlueprintCallable, Exec)

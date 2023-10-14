@@ -110,10 +110,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "GitSourceControl",
-			"Enabled": false
-		},
-		{
 			"Name": "SubversionSourceControl",
 			"Enabled": false
 		},
@@ -136,11 +132,6 @@
 		{
 			"Name": "KDevelopSourceCodeAccess",
 			"Enabled": false
-		},
-		{
-			"Name": "GoogleAnalytics",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/1b3f6c0fc07648b18758f7b883358b3e"
 		},
 		{
 			"Name": "OnlineSubsystemTwitch",
@@ -359,13 +350,31 @@
 			"Enabled": true
 		},
 		{
-			"Name": "FlatNodes",
+			"Name": "GoogleAnalytics",
 			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/1b3f6c0fc07648b18758f7b883358b3e"
+		},
+		{
+			"Name": "FlatNodes",
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b719437f3fb54c259b34227363df8cab"
+		},
+		{
+			"Name": "PluginDownloader",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b5ff499954db477eb46af6537f1f9c1b"
 		}
 	],
 	"TargetPlatforms": [
 		"Windows",
-		"WindowsNoEditor"
+		"PS4",
+		"PS5",
+		"Sony",
+		"WinGDK",
+		"XboxOneGDK",
+		"XSX",
+		"WindowsNoEditor",
+		"LinuxNoEditor",
+		"LinuxAArch64NoEditor"
 	]
 }
